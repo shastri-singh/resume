@@ -1,9 +1,97 @@
+body {
+    margin: 0px 70px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32pt;
+}
+
+h3 {
+    /* padding: 0px; */
+    margin: 0px;
+    padding-top: 15px;
+}
+
+
+/* Personal infomation section  */
 .personal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-info{
     text-align: center;
 }
 
-.personal-tab{
-    padding: left 100px;
-    padding-right: 100px;
-    margin-left: 20%;
+/* Summary section */
+.sum-section {
+    text-align: justify;
+} 
+
+
+/* Work experience section */
+.work-exp-section {
+    text-align: justify;
+}
+
+.exp-date-1, .exp-company-1  {
+    font-weight: bold;
+}
+.job-title-1 {
+    font-style: italic;
+}
+
+.exp-date-2, .exp-company-2  {
+    font-weight: bold;
+}
+.job-title-2 {
+    font-style: italic;
+}
+
+
+/* Education section */
+.edu-institution-1, .edu-date-1 {
+    font-weight: bold;
+}
+.edu-field-1 {
+    font-style: italic;
+}
+
+.edu-institution-2, .edu-date-2 {
+    font-weight: bold;
+}
+.edu-field-2 {
+    font-style: italic;
+}
+
+.edu-institution-3, .edu-date-3 {
+    font-weight: bold;
+}
+.edu-field-3{
+    font-style: italic;
+}
+
+/* Personal projects section */
+.personal-proj-section {
+    text-align: justify;
+}
+
+
+/* Reference section */
+.ref-name-1, .ref-name-2 {
+    font-weight: bold;
+}
+
+/* Copyright section */
+.copy-right {
+    font-weight: bold;
+}
+
+.icon-credits-section {
+    text-align: center;
+    font-size: 9pt;
 }
