@@ -20,7 +20,7 @@ h3 {
 .personal-section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .personal-info{
@@ -29,13 +29,13 @@ h3 {
 
 /* Summary section */
 .sum-section {
-    text-align: justify;
+    text-align: left;
 } 
 
 
 /* Work experience section */
 .work-exp-section {
-    text-align: justify;
+    text-align: left;
 }
 
 .exp-date-1, .exp-company-1  {
@@ -77,7 +77,7 @@ h3 {
 
 /* Personal projects section */
 .personal-proj-section {
-    text-align: justify;
+    text-align: left;
 }
 
 
